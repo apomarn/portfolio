@@ -9,6 +9,7 @@ const roundedStyles = `
   background-color: ${colors.green};
   border-radius: 25px;
   line-height: 48px;
+  padding: 8px 32px;
 `
 
 const StyledLink = styled.a`
@@ -32,7 +33,12 @@ const StyledLink = styled.a`
 class Anchor extends Component {
   render() {
     return (
-      <StyledLink to={this.props.to} flavor={this.props.flavor} style={this.props.style}>
+      <StyledLink
+        to={this.props.to}
+        flavor={this.props.flavor}
+        style={this.props.style}
+        className={this.props.className}
+      >
         {this.props.children}
       </StyledLink>
     )
