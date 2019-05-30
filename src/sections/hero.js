@@ -5,16 +5,16 @@ import { colors, textStyles, breakpoints } from '../styles'
 import Media from 'react-media'
 
 const Container = styled.div`
+  align-content: center;
   background-image: url('https://res.cloudinary.com/apomarn/image/upload/v1559203741/portfolio/hero-image.png');
-  background-size: cover;
   background-position: center center;
-  height: 100vh;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-content: center;
+  height: 100vh;
   padding: 144px 0;
   position: relative;
+  text-align: center;
 `
 
 const Headline1 = styled.p`

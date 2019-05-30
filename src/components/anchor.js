@@ -15,7 +15,6 @@ const roundedStyles = `
 const StyledLink = styled.a`
   text-decoration: none;
   text-align: center;
-  text-transform: uppercase;
 
   ${textStyles.h5Bold}
 
