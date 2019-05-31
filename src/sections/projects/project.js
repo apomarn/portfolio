@@ -26,22 +26,42 @@ const Title = styled.p`
 const Summary = styled.p`
   ${textStyles.h5}
 `
+
+const Projects = styled.div`
+  @media screen and (min-width: ${breakpoints.desktop}px) {
+    margin: 0 30px 30px 30px;
+    background-color: #cff5bf;
+  }
+`
+
+const ToolsImages = styled.img`
+  border: 2px solid ${colors.green};
+  border-radius: 20px;
+  margin: 10px 5px;
+  padding: 5px 10px;
+  width: 30px;
+  height: 20px;
+  background-color: ${colors.white};
+`
+
 class Project extends Component {
   render() {
     return (
-      <div>
+      <Projects>
         <Container>
-          <img src={this.props.image} width='100%' />
-          <StyledAnchor flavor='rounded'>TRY IT</StyledAnchor>
+          <img src={this.props.image} />
+          <StyledAnchor href={this.props.href} flavor='rounded'>
+            TRY IT
+          </StyledAnchor>
         </Container>
         <Description>
           <Title>{this.props.title}</Title>
           <Summary>{this.props.description}</Summary>
         </Description>
         {this.props.technologies.map(image => {
-          return <img src={image} key={image} />
+          return <ToolsImages src={image} key={image} />
         })}
-      </div>
+      </Projects>
     )
   }
 }

@@ -5,6 +5,7 @@ import AboutMe from './sections/about-me'
 import Skills from './sections/skills'
 import ProjectInformation from './sections/projects'
 import Tools from './sections/tools'
+import Contact from './sections/contact'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <ProjectInformation />
       <Tools />
+      <Contact />
     </div>
   )
 }

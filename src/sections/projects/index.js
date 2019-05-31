@@ -7,6 +7,7 @@ const projects = [
   {
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1559257591/portfolio/project.png',
     title: 'Little Red Riding Hood',
+    href: 'http://lrrh.anghypomar.com',
     description: 'An adventure game to challenge your inner child.',
     technologies: [
       'https://res.cloudinary.com/apomarn/image/upload/v1559278072/portfolio/js.png',
@@ -21,6 +22,7 @@ const projects = [
   {
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1559272123/portfolio/wiki-book.png',
     title: 'Wiki Book',
+    href: 'http://mywikibook.anghypomar.com',
     description:
       'A place to find books by title, author and genres. It allows you to review books and authors as well as favorite them.',
     technologies: [
@@ -36,6 +38,7 @@ const projects = [
   {
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1559272123/portfolio/we-do.png',
     title: 'WeDo',
+    href: 'http://wedo.anghypomar.com',
     description:
       'Planning a wedding can be difficult. WeDo helps you from managing your guest list to share your wedding story.',
     technologies: [
@@ -73,6 +76,14 @@ const Headline = styled.p`
   }
 `
 
+const Projects = styled.div`
+  @media screen and (min-width: ${breakpoints.desktop}px) {
+    display: flex;
+    justify-content: space-around;
+    width: '33%';
+  }
+`
+
 class ProjectInformation extends Component {
   render() {
     return (
@@ -81,9 +92,11 @@ class ProjectInformation extends Component {
         <Headline>
           My <strong>Projects</strong>
         </Headline>
-        {projects.map(project => {
-          return <Project {...project} key={project.title} />
-        })}
+        <Projects>
+          {projects.map(project => {
+            return <Project {...project} key={project.title} />
+          })}
+        </Projects>
       </div>
     )
   }

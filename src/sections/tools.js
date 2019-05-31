@@ -68,8 +68,11 @@ const ToolsContainer = styled.div`
 `
 const ToolsImages = styled.img`
   border: 2px solid ${colors.green};
-  border-radius: 25px;
-  margin: 20px;
+  border-radius: 20px;
+  margin: 15px 5px;
+  padding: 5px 10px;
+  width: 60px;
+  height: 40px;
 
   &:hover {
     box-shadow: 5px 10px ${colors.gray};
@@ -86,7 +89,7 @@ class Tools extends Component {
         </Headline>
         <ToolsContainer>
           {toolsImages.map(image => {
-            return <ToolsImages src={image} />
+            return <ToolsImages src={image} key={image} />
           })}
         </ToolsContainer>
       </Container>
