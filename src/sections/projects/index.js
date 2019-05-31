@@ -9,7 +9,7 @@ const projects = [
     title: 'Little Red Riding Hood',
     description: 'An adventure game to challenge your inner child.',
     technologies: [
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/javascript.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559278072/portfolio/js.png',
       'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/webpack.png',
       'https://res.cloudinary.com/apomarn/image/upload/v1559266756/portfolio/babel.png',
       'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/tiled.png',
@@ -57,11 +57,11 @@ const Separator = styled.div`
   width: 64px;
   height: 4px;
   background-color: ${colors.green};
-  margin: 80px 16px 32px 16px;
+  margin: 80px 16px 16px 16px;
   @media screen and (min-width: ${breakpoints.desktop}px) {
     width: 128px;
     height: 8px;
-    margin: 80px 32px;
+    margin: 80px 32px 16px 32px;
   }
 `
 
@@ -69,7 +69,7 @@ const Headline = styled.p`
   margin: 0px 0px 32px 16px;
   ${textStyles.h3}
   @media screen and (min-width: ${breakpoints.desktop}px) {
-    margin: 16px 0 32px 0;
+    margin: 0 0 32px 32px;
   }
 `
 
