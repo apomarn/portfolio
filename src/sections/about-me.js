@@ -75,7 +75,7 @@ const AboutMeContainer = styled.div`
 class AboutMe extends Component {
   render() {
     return (
-      <Container>
+      <Container id='aboutme'>
         <Divider>
           <div>
             <Separator />
@@ -91,8 +91,14 @@ class AboutMe extends Component {
               in the tech industry I joined Ironhack to become a Full Stack Web Developer in a fast pace.
             </Description>
             <AnchorContainer>
-              <StyledAnchor flavor='rounded'>Contact Me</StyledAnchor>
-              <StyledAnchor flavor='rounded' style={{ backgroundColor: colors.blue }}>
+              <StyledAnchor href='#contactme' flavor='rounded'>
+                Contact Me
+              </StyledAnchor>
+              <StyledAnchor
+                href='https://res.cloudinary.com/apomarn/image/upload/v1559281639/portfolio/anghypomar-resume.pdf'
+                flavor='rounded'
+                style={{ backgroundColor: colors.blue }}
+              >
                 See CV
               </StyledAnchor>
             </AnchorContainer>

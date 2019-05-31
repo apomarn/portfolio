@@ -53,6 +53,7 @@ const Buttom = styled(Anchor)`
   position: absolute;
   justify-content: center;
   bottom: 80px;
+
   @media screen and (min-width: ${breakpoints.desktop}px) {
     top: 300px;
   }
@@ -79,7 +80,9 @@ class Hero extends Component {
           }
         </Media>
         <Headline3>Javascript Full Stack Web Developer</Headline3>
-        <Buttom flavor='rounded'>More about me</Buttom>
+        <Buttom href='#aboutme' flavor='rounded'>
+          More about me
+        </Buttom>
       </Container>
     )
   }
