@@ -6,6 +6,13 @@ import Anchor from '../../components/anchor'
 const Container = styled.div`
   position: relative;
 `
+
+const Image = styled.img`
+  width: 100%;
+  @media screen and (min-width: ${breakpoints.desktop}px) {
+  }
+`
+
 const StyledAnchor = styled(Anchor)`
   position: absolute;
   bottom: -17px;
@@ -49,7 +56,7 @@ class Project extends Component {
     return (
       <Projects>
         <Container>
-          <img src={this.props.image} />
+          <Image src={this.props.image} />
           <StyledAnchor href={this.props.href} flavor='rounded'>
             TRY IT
           </StyledAnchor>

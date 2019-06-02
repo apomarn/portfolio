@@ -5,7 +5,7 @@ import { colors, breakpoints, textStyles } from '../../styles'
 
 const projects = [
   {
-    image: 'https://res.cloudinary.com/apomarn/image/upload/v1559257591/portfolio/project.png',
+    image: 'https://res.cloudinary.com/apomarn/image/upload/v1559456674/portfolio/Image_mpdg4m.png',
     title: 'Little Red Riding Hood',
     href: 'http://lrrh.anghypomar.com',
     description: 'An adventure game to challenge your inner child.',
@@ -94,7 +94,7 @@ class ProjectInformation extends Component {
         </Headline>
         <Projects>
           {projects.map(project => {
-            return <Project {...project} key={project.title} />
+            return <Project {...project} key={project.title} width='33%' />
           })}
         </Projects>
       </div>
