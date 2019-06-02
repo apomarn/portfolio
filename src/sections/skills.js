@@ -44,20 +44,44 @@ class Skills extends Component {
         </Headline>
         <SkillsContainer>
           <div>
-            <img src='https://res.cloudinary.com/apomarn/image/upload/v1559253909/portfolio/skills.png' />
-            <p>Autodidact</p>
+            <img
+              src='https://res.cloudinary.com/apomarn/image/upload/v1559453269/portfolio/Group_41_wyys7d.png'
+              width='120'
+              height='120'
+            />
+            <p>Teamwork</p>
           </div>
           <div>
-            <img src='https://res.cloudinary.com/apomarn/image/upload/v1559253909/portfolio/skills.png' />
-            <p>Autodidact</p>
+            <img
+              src='https://res.cloudinary.com/apomarn/image/upload/v1559452857/portfolio/Group_39_ilsbbv.png'
+              width='120'
+              height='120'
+            />
+            <p>Time Management</p>
           </div>
           <div>
-            <img src='https://res.cloudinary.com/apomarn/image/upload/v1559253909/portfolio/skills.png' />
-            <p>Autodidact</p>
+            <img
+              src='https://res.cloudinary.com/apomarn/image/upload/v1559452857/portfolio/Group_37_llyx2s.png'
+              width='120'
+              height='120'
+            />
+            <p>Self-motivation</p>
           </div>
           <div>
-            <img src='https://res.cloudinary.com/apomarn/image/upload/v1559253909/portfolio/skills.png' />
-            <p>Autodidact</p>
+            <img
+              src='https://res.cloudinary.com/apomarn/image/upload/v1559453269/portfolio/Group_40_pgkmc9.png'
+              width='120'
+              height='120'
+            />
+            <p>Adaptability</p>
+          </div>
+          <div>
+            <img
+              src='https://res.cloudinary.com/apomarn/image/upload/v1559452857/portfolio/Group_38_axwiy2.png'
+              width='120'
+              height='120'
+            />
+            <p>Tenacity</p>
           </div>
         </SkillsContainer>
       </Container>
