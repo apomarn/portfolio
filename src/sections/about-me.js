@@ -90,7 +90,6 @@ class AboutMe extends Component {
               I worked for more than 4 years in the Food & Beverage department and since I always wanted to get involved
               in the tech industry I joined Ironhack to become a Full Stack Web Developer in a fast pace.
             </Description>
-            <p>https://docs.google.com/document/d/1lxy2QTJMLF-rHIqW1-5o35Dy8p2Yx-cLhM6kut0Is7o/edit?usp=sharing</p>
             <AnchorContainer>
               <StyledAnchor href='#contactme' flavor='rounded'>
                 Contact Me
