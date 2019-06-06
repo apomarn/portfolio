@@ -67,7 +67,7 @@ class Hero extends Component {
           {matches =>
             matches ? (
               <>
-                <Headline1>Hello, I'm</Headline1>
+                <Headline1>Hey, I'm</Headline1>
                 <Headline2>Anghy Pomar</Headline2>
               </>
             ) : (
