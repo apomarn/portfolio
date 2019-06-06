@@ -99,7 +99,7 @@ class AboutMe extends Component {
                 flavor='rounded'
                 style={{ backgroundColor: colors.blue }}
               >
-                See CV
+                See Resume
               </StyledAnchor>
             </AnchorContainer>
           </AboutMeContainer>

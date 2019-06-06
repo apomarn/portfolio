@@ -33,6 +33,7 @@ class Anchor extends Component {
   render() {
     return (
       <StyledLink
+        target='_blank'
         href={this.props.href}
         to={this.props.to}
         flavor={this.props.flavor}

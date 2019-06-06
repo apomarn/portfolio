@@ -67,7 +67,7 @@ class Hero extends Component {
           {matches =>
             matches ? (
               <>
-                <Headline1>Hey, I'm</Headline1>
+                <Headline1>Hello, I'm</Headline1>
                 <Headline2>Anghy Pomar</Headline2>
               </>
             ) : (
@@ -79,7 +79,7 @@ class Hero extends Component {
             )
           }
         </Media>
-        <Headline3>Javascript Full Stack Web Developer</Headline3>
+        <Headline3>JavaScript Full Stack Web Developer</Headline3>
         <Buttom href='#aboutme' flavor='rounded'>
           More about me
         </Buttom>
