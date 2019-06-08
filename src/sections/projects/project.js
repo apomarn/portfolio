@@ -57,9 +57,11 @@ class Project extends Component {
       <Projects>
         <Container>
           <Image src={this.props.image} />
-          <StyledAnchor href={this.props.href} flavor='rounded'>
-            TRY IT
-          </StyledAnchor>
+          <div>
+            <StyledAnchor href={this.props.href} flavor='rounded'>
+              TRY IT
+            </StyledAnchor>
+          </div>
         </Container>
         <Description>
           <Title>{this.props.title}</Title>
