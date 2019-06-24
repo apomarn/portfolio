@@ -95,7 +95,7 @@ class AboutMe extends Component {
                 Contact Me
               </StyledAnchor>
               <StyledAnchor
-                href='https://res.cloudinary.com/apomarn/image/upload/v1559281639/portfolio/anghypomar-resume.pdf'
+                href='https://res.cloudinary.com/apomarn/image/upload/v1561339006/portfolio/resume-anghypomar.pdf'
                 flavor='rounded'
                 style={{ backgroundColor: colors.blue }}
               >
