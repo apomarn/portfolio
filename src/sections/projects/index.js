@@ -99,7 +99,6 @@ const Projects = styled.div`
   @media screen and (min-width: ${breakpoints.desktop}px) {
     display: flex;
     justify-content: space-around;
-    width: '33%';
   }
 `
 
