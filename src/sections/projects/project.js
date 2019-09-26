@@ -8,7 +8,7 @@ const Container = styled.div`
 `
 
 const Image = styled.img`
-  width: 100%;
+  width: 250px;
   @media screen and (min-width: ${breakpoints.desktop}px) {
   }
 `
@@ -35,6 +35,7 @@ const Summary = styled.p`
 `
 
 const Projects = styled.div`
+  width: 250px;
   @media screen and (min-width: ${breakpoints.desktop}px) {
     margin: 0 30px 30px 30px;
     background-color: #cff5bf;

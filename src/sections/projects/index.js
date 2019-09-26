@@ -93,6 +93,9 @@ const Headline = styled.p`
 `
 
 const Projects = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   @media screen and (min-width: ${breakpoints.desktop}px) {
     display: flex;
     justify-content: space-around;
