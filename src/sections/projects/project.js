@@ -9,8 +9,12 @@ const Container = styled.div`
 
 const Image = styled.img`
   width: 100%;
+  height: 200px;
+  object-fit: cover;
+
   @media screen and (min-width: ${breakpoints.desktop}px) {
-    width: 250px;
+    height: 200px;
+    object-fit: cover;
   }
 `
 
