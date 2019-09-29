@@ -19,12 +19,9 @@ const Image = styled.img`
 `
 
 const StyledAnchor = styled(Anchor)`
-  position: absolute;
-  bottom: -17px;
-  right: 15px;
   width: 50px;
-  height: 30px;
-  line-height: 30px;
+  height: 20px;
+  line-height: 20px;
 `
 const Description = styled.div`
   margin: 0 16px;
@@ -58,17 +55,28 @@ const ToolsImages = styled.img`
   background-color: ${colors.white};
 `
 
+const AnchorContainer = styled.div`
+  display: flex;
+  position: absolute;
+  bottom: -17px;
+  right: 15px;
+  justify-content: space-between;
+`
+
 class Project extends Component {
   render() {
     return (
       <Projects>
         <Container>
           <Image src={this.props.image} />
-          <div>
+          <AnchorContainer>
             <StyledAnchor href={this.props.href} flavor='rounded'>
               TRY IT
             </StyledAnchor>
-          </div>
+            <StyledAnchor href={this.props.github} flavor='rounded'>
+              CODE
+            </StyledAnchor>
+          </AnchorContainer>
         </Container>
         <Description>
           <Title>{this.props.title}</Title>

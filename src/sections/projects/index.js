@@ -8,6 +8,7 @@ const projects = [
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1559456674/portfolio/Image_mpdg4m.png',
     title: 'Little Red Riding Hood',
     href: 'http://lrrh.anghypomar.com',
+    github: 'https://github.com/apomarn/little-red-riding-hood',
     description: 'An adventure game to challenge your inner child.',
     technologies: [
       'https://res.cloudinary.com/apomarn/image/upload/v1559278072/portfolio/js.png',
@@ -23,6 +24,7 @@ const projects = [
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1559272123/portfolio/wiki-book.png',
     title: 'Wiki Book',
     href: 'http://mywikibook.anghypomar.com',
+    github: 'https://github.com/apomarn/wiki-book',
     description:
       'A place to find books by title, author and genres. It allows you to review books and authors as well as favorite them.',
     technologies: [
@@ -39,6 +41,7 @@ const projects = [
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1559272123/portfolio/we-do.png',
     title: 'WeDo',
     href: 'http://wedo.anghypomar.com',
+    github: 'https://github.com/apomarn/WeDo',
     description:
       'Planning a wedding can be difficult. WeDo helps you from managing your guest list to share your wedding story.',
     technologies: [
@@ -58,6 +61,7 @@ const projects = [
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1569524853/portfolio/Pets.png',
     title: 'Pets',
     href: 'https://ccg-frontend.herokuapp.com',
+    github: 'https://github.com/apomarn/ccg-frontend',
     description: 'Pets store where you can see puppies availables and also informations about each breed',
     technologies: [
       'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/react.js.png',
