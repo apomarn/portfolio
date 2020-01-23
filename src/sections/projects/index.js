@@ -5,6 +5,23 @@ import { colors, breakpoints, textStyles } from '../../styles'
 
 const projects = [
   {
+    image: 'https://res.cloudinary.com/apomarn/image/upload/v1569524853/portfolio/Pets.png',
+    title: 'Pets',
+    href: 'https://ccg-frontend.herokuapp.com',
+    github: 'https://github.com/apomarn/ccg-frontend',
+    description: 'Pets store where you can see puppies availables and also informations about each breed',
+    technologies: [
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/react.js.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/express.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/mongodb.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266758/portfolio/heroku.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/cloudinary.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266758/portfolio/style-component.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/figma.png',
+      'https://res.cloudinary.com/apomarn/image/upload/v1559266761/portfolio/node.png'
+    ]
+  },
+  {
     image: 'https://res.cloudinary.com/apomarn/image/upload/v1559456674/portfolio/Image_mpdg4m.png',
     title: 'Little Red Riding Hood',
     href: 'http://lrrh.anghypomar.com',
@@ -55,23 +72,6 @@ const projects = [
       'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/figma.png',
       'https://res.cloudinary.com/apomarn/image/upload/v1559266761/portfolio/node.png',
       'https://res.cloudinary.com/apomarn/image/upload/v1559273120/portfolio/firebase.png'
-    ]
-  },
-  {
-    image: 'https://res.cloudinary.com/apomarn/image/upload/v1569524853/portfolio/Pets.png',
-    title: 'Pets',
-    href: 'https://ccg-frontend.herokuapp.com',
-    github: 'https://github.com/apomarn/ccg-frontend',
-    description: 'Pets store where you can see puppies availables and also informations about each breed',
-    technologies: [
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/react.js.png',
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/express.png',
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/mongodb.png',
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266758/portfolio/heroku.png',
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/cloudinary.png',
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266758/portfolio/style-component.png',
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266757/portfolio/figma.png',
-      'https://res.cloudinary.com/apomarn/image/upload/v1559266761/portfolio/node.png'
     ]
   }
 ]
